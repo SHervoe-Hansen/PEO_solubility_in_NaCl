@@ -1,0 +1,48 @@
+[ atomtypes ]
+; name  mass  charge  ptype  sigma [nm]  epsilon [kJ/mol]  comments
+CE      12.011  -0.01  A  3.58141e-01  2.34304e-01 ; ether CH2 carbon - BiophysJ 2008 - Pastor
+CF      12.011  -0.10  A  3.63486e-01  3.26352e-01 ; ether CH3 carbon - BiophysJ 2008 - Pastor
+HE       1.008  +0.09  A  2.38761e-01  1.46440e-01 ; ether CH2 hydrogen - BiophysJ 2008 - Pastor
+HF       1.008  +0.09  A  2.38761e-01  1.00416e-01 ; ether CH3 hydrogen - BiophysJ 2008 - Pastor
+OE      15.999  -0.34  A  2.94000e-01  4.18400e-01 ; ether oxygen - BiophysJ 2008 - Pastor
+
+[bondtypes ]
+; i  j  func  b0 [nm]  kb [kJ/mol/nm^2]  comments
+CE  CE     1  0.15300  259408.0  ; ether - BiophysJ 2008 - Pastor
+CE  CF     1  0.15280  259408.0  ; ether - BiophysJ 2008 - Pastor
+CE  HE     1  0.11110  284512.0  ; ether - BiophysJ 2008 - Pastor
+CF  HF     1  0.11110  284512.0  ; ether - BiophysJ 2008 - Pastor
+CE  OE     1  0.14150  267776.0  ; ether - BiophysJ 2008 - Pastor
+CF  OE     1  0.14150  267776.0  ; ether - BiophysJ 2008 - Pastor
+
+[ angletypes ]
+; i  j  k  func  th0 [deg]  cth [kJ/mol/rad^2]  comments
+CE  CE  HE    1  110.100  418.400  ; ether - BiophysJ 2008 - Pastor
+CE  CF  HF    1  110.100  418.400  ; ether - BiophysJ 2008 - Pastor -- NOT PRESENT/USED IN PEG MODEL
+CF  CE  HE    1  110.100  418.400  ; ether - BiophysJ 2008 - Pastor -- NOT PRESENT/USED IN PEG MODEL
+CE  CE  OE    1  111.500  418.400  ; ether - BiophysJ 2008 - Pastor
+HE  CE  HE    1  109.000  292.880  ; ether - BiophysJ 2008 - Pastor
+HF  CF  HF    1  108.400  292.880  ; ether - BiophysJ 2008 - Pastor
+HE  CE  OE    1  109.500  418.400  ; ether - BiophysJ 2008 - Pastor
+HF  CF  OE    1  109.500  418.400  ; ether - BiophysJ 2008 - Pastor
+CE  OE  CE    1  109.700  460.240  ; ether - BiophysJ 2008 - Pastor
+CE  OE  CF    1  109.700  460.240  ; ether - BiophysJ 2008 - Pastor
+CF  OE  CF    1  109.700  460.240  ; same as ^^^ -- MONOMER ONLY
+
+[ dihedraltypes ]
+; i  j  k  l  func  phi0  kphi  n  comments
+HE  CE  CE  HE   9    0.0  0.79515  3  ; ether - BiophysJ 2008 - Pastor
+HE  CE  CE  OE   9    0.0  0.79515  3  ; ether - BiophysJ 2008 - Pastor
+HE  CE  CF  HF   9    0.0  0.66960  3  ; ether - BiophysJ 2008 - Pastor -- NOT PRESENT/USED IN PEG MODEL
+HE  CE  OE  CE   9    0.0  1.18854  3  ; ether - BiophysJ 2008 - Pastor
+HE  CE  OE  CF   9    0.0  1.18854  3  ; ether - BiophysJ 2008 - Pastor
+HF  CF  OE  CE   9    0.0  1.18854  3  ; ether - BiophysJ 2008 - Pastor
+HF  CF  OE  CF   9    0.0  1.18854  3  ; same as ^^^ -- MONOMER ONLY
+CE  CE  OE  CF   9    0.0  2.38545  1  ; ether - BiophysJ 2008 - Pastor
+CE  CE  OE  CF   9    0.0  1.21365  2  ; ether - BiophysJ 2008 - Pastor
+CE  CE  OE  CF   9    0.0  1.79955  3  ; ether - BiophysJ 2008 - Pastor
+CE  CE  OE  CE   9    0.0  2.38545  1  ; ether - BiophysJ 2008 - Pastor
+CE  CE  OE  CE   9    0.0  1.21365  2  ; ether - BiophysJ 2008 - Pastor
+CE  CE  OE  CE   9    0.0  1.79955  3  ; ether - BiophysJ 2008 - Pastor
+OE  CE  CE  OE   9  180.0  2.46915  1  ; ether - BiophysJ 2008 - Pastor
+OE  CE  CE  OE   9    0.0  4.85460  2  ; ether - BiophysJ 2008 - Pastor
