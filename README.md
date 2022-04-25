@@ -1,6 +1,6 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-# Rigorous Thermodynamic Decomposition of Salt Effects on the Polymerization of Polyethylene glycol
+# Rigorous Thermodynamic Decomposition of Salt Effects on the Polymerization of Polyethylene Glycol
 
 ## Research plan
 - [ ] Determine solvation free energy of PEO in various _n_-mers in neat water.
