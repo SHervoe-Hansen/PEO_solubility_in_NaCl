@@ -7,7 +7,10 @@
 - [ ] Determine solvation free energy of PEO in various _n_-mers in NaCl solution.
 - [ ] Determine solvation free energy of PEO in various _n_-mers in NaSCN solution.
 
-### License
+## Overleaf
+A link to view and edit the Overleaf document associated with the project can be found [here](https://www.overleaf.com/8289365976jwqwswvjvjqh)
+
+## License
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
