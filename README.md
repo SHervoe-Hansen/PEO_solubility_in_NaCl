@@ -10,6 +10,14 @@
 ### Overleaf
 A link to view and edit the Overleaf document associated with the project can be found [here](https://www.overleaf.com/8289365976jwqwswvjvjqh)
 
+### Usage
+To open the notebook, install Python via [Miniconda](https://conda.io/miniconda.html) and make sure all required packages are loaded by issuing the following terminal commands
+```bash
+   conda env create -f environment.yml
+   conda activate PEO
+   jupyter-notebook
+```
+
 ### License
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
