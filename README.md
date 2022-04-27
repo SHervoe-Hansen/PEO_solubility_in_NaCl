@@ -2,15 +2,15 @@
 
 # Rigorous Thermodynamic Decomposition of Salt Effects on the Polymerization of Polyethylene Glycol
 
-## Research plan
+### Research plan
 - [ ] Determine solvation free energy of PEO in various _n_-mers in neat water.
 - [ ] Determine solvation free energy of PEO in various _n_-mers in NaCl solution.
 - [ ] Determine solvation free energy of PEO in various _n_-mers in NaSCN solution.
 
-## Overleaf
+### Overleaf
 A link to view and edit the Overleaf document associated with the project can be found [here](https://www.overleaf.com/8289365976jwqwswvjvjqh)
 
-## License
+### License
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
 
