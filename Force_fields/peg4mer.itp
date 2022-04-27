@@ -4,36 +4,36 @@ PEG4  3 ;
 
 [ atoms ]
 ; atomnr  atomtype  resnr resname  atomname  qgrp  q  m
-    1    CF     1   PGH    C1     1 ;
-    2    HF     1   PGH   H11     2 ;
-    3    HF     1   PGH   H12     3 ;
-    4    HF     1   PGH   H13     4 ;
-    5    OE     1   PGH    O2     5 ;
-    6    CE     1   PGH    C3     6 ;
-    7    HE     1   PGH   H31     7 ;
-    8    HE     1   PGH   H32     8 ;
-    9    CE     2   PGM    C1     9 ;
-   10    HE     2   PGM   H11    10 ;
-   11    HE     2   PGM   H12    11 ;
-   12    OE     2   PGM    O2    12 ;
-   13    CE     2   PGM    C3    13 ;
-   14    HE     2   PGM   H31    14 ;
-   15    HE     2   PGM   H32    15 ;
-   16    CE     3   PGM    C1    16 ;
-   17    HE     3   PGM   H11    17 ;
-   18    HE     3   PGM   H12    18 ;
-   19    OE     3   PGM    O2    19 ;
-   20    CE     3   PGM    C3    20 ;
-   21    HE     3   PGM   H31    21 ;
-   22    HE     3   PGM   H32    22 ;
-   23    CE     4   PGT    C1    23 ;
-   24    HE     4   PGT   H11    24 ;
-   25    HE     4   PGT   H12    25 ;
-   26    OE     4   PGT    O2    26 ;
-   27    CF     4   PGT    C3    27 ;
-   28    HF     4   PGT   H31    28 ;
-   29    HF     4   PGT   H32    29 ;
-   30    HF     4   PGT   H33    30 ;
+    1    CF     1   PGH    C1     1     -0.10 ;
+    2    HF     1   PGH   H11     2     +0.09 ;
+    3    HF     1   PGH   H12     3     +0.09 ;
+    4    HF     1   PGH   H13     4     +0.09 ;
+    5    OE     1   PGH    O2     5     -0.34 ;
+    6    CE     1   PGH    C3     6     -0.01 ;
+    7    HE     1   PGH   H31     7     +0.09 ;
+    8    HE     1   PGH   H32     8     +0.09 ;
+    9    CE     2   PGM    C1     9     -0.01 ;
+   10    HE     2   PGM   H11    10     +0.09 ;
+   11    HE     2   PGM   H12    11     +0.09 ;
+   12    OE     2   PGM    O2    12     -0.34 ;
+   13    CE     2   PGM    C3    13     -0.01 ;
+   14    HE     2   PGM   H31    14     +0.09 ;
+   15    HE     2   PGM   H32    15     +0.09 ;
+   16    CE     3   PGM    C1    16     -0.01 ;
+   17    HE     3   PGM   H11    17     +0.09 ;
+   18    HE     3   PGM   H12    18     +0.09 ;
+   19    OE     3   PGM    O2    19     -0.34 ;
+   20    CE     3   PGM    C3    20     -0.01 ;
+   21    HE     3   PGM   H31    21     +0.09 ;
+   22    HE     3   PGM   H32    22     +0.09 ;
+   23    CE     4   PGT    C1    23     -0.01 ;
+   24    HE     4   PGT   H11    24     +0.09 ;
+   25    HE     4   PGT   H12    25     +0.09 ;
+   26    OE     4   PGT    O2    26     -0.34 ;
+   27    CF     4   PGT    C3    27     -0.10 ;
+   28    HF     4   PGT   H31    28     +0.09 ;
+   29    HF     4   PGT   H32    29     +0.09 ;
+   30    HF     4   PGT   H33    30     +0.09 ;
 
 [ bonds ]
 ; i  j  func

@@ -4,22 +4,22 @@ PEG2  3 ;
 
 [ atoms ]
 ; atomnr  atomtype  resnr resname  atomname  qgrp  q  m
-    1    CF     1   PGH    C1     1 ;
-    2    HF     1   PGH   H11     2 ;
-    3    HF     1   PGH   H12     3 ;
-    4    HF     1   PGH   H13     4 ;
-    5    OE     1   PGH    O2     5 ;
-    6    CE     1   PGH    C3     6 ;
-    7    HE     1   PGH   H31     7 ;
-    8    HE     1   PGH   H32     8 ;
-    9    CE     2   PGT    C1     9 ;
-   10    HE     2   PGT   H11    10 ;
-   11    HE     2   PGT   H12    11 ;
-   12    OE     2   PGT    O2    12 ;
-   13    CF     2   PGT    C3    13 ;
-   14    HF     2   PGT   H31    14 ;
-   15    HF     2   PGT   H32    15 ;
-   16    HF     2   PGT   H33    16 ;
+    1    CF     1   PGH    C1     1     -0.10 ;
+    2    HF     1   PGH   H11     2     +0.09 ;
+    3    HF     1   PGH   H12     3     +0.09 ;
+    4    HF     1   PGH   H13     4     +0.09 ;
+    5    OE     1   PGH    O2     5     -0.34 ;
+    6    CE     1   PGH    C3     6     -0.01 ;
+    7    HE     1   PGH   H31     7     +0.09 ;
+    8    HE     1   PGH   H32     8     +0.09 ;
+    9    CE     2   PGT    C1     9     -0.01 ;
+   10    HE     2   PGT   H11    10     +0.09 ;
+   11    HE     2   PGT   H12    11     +0.09 ;
+   12    OE     2   PGT    O2    12     -0.34 ;
+   13    CF     2   PGT    C3    13     -0.10 ;
+   14    HF     2   PGT   H31    14     +0.09 ;
+   15    HF     2   PGT   H32    15     +0.09 ;
+   16    HF     2   PGT   H33    16     +0.09 ;
 
 [ bonds ]
 ; i  j  func
