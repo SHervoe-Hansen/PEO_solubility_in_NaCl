@@ -4,11 +4,11 @@
 ; ---- 
 ;
 
-;[ atomtypes ] 
-;; name at.num  mass   charge  ptype    sigma            epsilon 
-;S-P    16   32.0660  0.0  A         0.383084    1.522557
-;CSP     6   12.0110  0.0  A         0.334977    0.425093
-;NSP     7   14.0067  0.0  A         0.369722    0.310034
+[ atomtypes ] 
+; name at.num  mass   charge  ptype    sigma            epsilon 
+S-P    16   32.0660  0.0  A         0.383084    1.522557
+CSP     6   12.0110  0.0  A         0.334977    0.425093        SCN- from Krizek et al. http://dx.doi.org/10.1002/elps.201300544
+NSP     7   14.0067  0.0  A         0.369722    0.310034
 
 [ moleculetype ]
 ; Name nrexcl 

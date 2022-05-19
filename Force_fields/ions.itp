@@ -1,0 +1,6 @@
+[ atomtypes ]
+; name    at.num  mass     charge ptype  sigma [nm] epsilon [kJ/mol]
+; simple ions
+Na     11   22.99    1.000      A       0.2586      0.4184      ; Na+ from Heyda et al. http://dx.doi.org/10.1021/jp910953w
+Cs     55   132.9    1.000      A       0.4200      0.2000 	; Cs+ from Krizek et al. http://dx.doi.org/10.1002/elps.201300544
+Cl     17   35.45   -1.000      A       0.4401      0.4184    	; Cl- from Heyda et al. http://dx.doi.org/10.1021/jp910953w
