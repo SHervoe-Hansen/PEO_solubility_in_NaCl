@@ -8,11 +8,12 @@
     <Type name="ion-Na" class="ion-Na" element="Na" mass="22.98977"/>
     <Type name="ion-Cs" class="ion-Cs" element="Cs" mass="132.90545"/>
     <Type name="ion-Cl" class="ion-Cl" element="Cl" mass="35.453"/>
- </Residues>
+ </AtomTypes>
+ <Residues>
     <Residue name="Cl">
       <Atom name="Cl" type="ion-Cl" charge="-1.000"/>
     </Residue>
-    <Residue name="Cl">
+    <Residue name="Cs">
       <Atom name="Cs" type="ion-Cs" charge="1.000"/>
     </Residue>
     <Residue name="Na">

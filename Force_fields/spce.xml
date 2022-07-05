@@ -6,7 +6,8 @@
  <AtomTypes>
     <Type name="spce-O" class="spce-O" element="O" mass="15.99943"/>
     <Type name="spce-H" class="spce-H" element="H" mass="1.007947"/>
- </Residues>
+ </AtomTypes>
+ <Residues>
     <Residue name="HOH">
       <Atom name="O" type="spce-O" charge="-0.8476"/>
       <Atom name="H1" type="spce-H" charge="0.4238"/>

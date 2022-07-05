@@ -7,7 +7,8 @@
     <Type name="scn-S" class="scn-S" element="S" mass="32.0660"/>
     <Type name="scn-C" class="scn-C" element="C" mass="12.0110"/>
     <Type name="scn-N" class="scn-N" element="N" mass="14.0067"/>
- </Residues>
+ </AtomTypes>
+ <Residues>
     <Residue name="SCN">
       <Atom name="S1" type="scn-S" charge="-0.7500"/>
       <Atom name="C2" type="scn-C" charge="0.4900"/>
