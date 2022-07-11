@@ -19,10 +19,10 @@
  </Residues>
  <HarmonicBondForce>
     <Bond type1="scn-S" type2="scn-C" length="0.16950" k="252929.5"/>
-    <Bond type1="scn-C" type2="scn-n" length="0.11500" k="998590.3"/>
+    <Bond type1="scn-C" type2="scn-N" length="0.11500" k="998590.3"/>
  </HarmonicBondForce>
  <HarmonicAngleForce>
-    <Angle type1="scn-S" type2="scn-C" type3="scn-N" angle="180.0" k="698.56"/>
+    <Angle type1="scn-S" type2="scn-C" type3="scn-N" angle="3.14159" k="698.56"/>
  </HarmonicAngleForce>
  <NonbondedForce coulomb14scale="0.8333333333333334" lj14scale="0.5">
     <UseAttributeFromResidue name="charge"/>
@@ -31,4 +31,3 @@
     <Atom type="scn-N" sigma="0.369722" epsilon="0.310034"/>
  </NonbondedForce>
 </ForceField>
-
