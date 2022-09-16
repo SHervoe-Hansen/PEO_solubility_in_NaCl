@@ -1,12 +1,12 @@
 # Forcefields
 ### Polyethylene oxide
-The polyethylene oxides are named differently compared to the [main reference article](https://doi.org/10.1038/s41557-021-00805-z).
-PEO-2-mer  corresponds to PEO1
-PEO-4-mer  corresponds to PEO3
-PEO-6-mer  corresponds to PEO5
-PEO-8-mer  corresponds to PEO7
-PEO-15-mer corresponds to PEO14
-PEO-36-mer corresponds to PEO35
+The polyethylene oxides are named differently compared to the [main reference article](https://doi.org/10.1038/s41557-021-00805-z).<br>
+PEO-2-mer  corresponds to PEO1<br>
+PEO-4-mer  corresponds to PEO3<br>
+PEO-6-mer  corresponds to PEO5<br>
+PEO-8-mer  corresponds to PEO7<br>
+PEO-15-mer corresponds to PEO14<br>
+PEO-36-mer corresponds to PEO35<br>
 PEG force field by [Lee <i>et al</i>. Biophys. J., 2008](https://doi.org/10.1529/biophysj.108.133025)
 
 ### Thiocyanate
