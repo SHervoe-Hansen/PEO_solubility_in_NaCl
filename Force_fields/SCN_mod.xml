@@ -26,8 +26,8 @@
  </HarmonicAngleForce>
  <NonbondedForce coulomb14scale="0.8333333333333334" lj14scale="0.5">
     <UseAttributeFromResidue name="charge"/>
-    <Atom type="scn-S" sigma="0.383084" epsilon="1.522557"/>
-    <Atom type="scn-C" sigma="0.334977" epsilon="0.425093"/>
-    <Atom type="scn-N" sigma="0.369722" epsilon="0.310034"/>
+    <Atom type="scm-S" sigma="0.383084" epsilon="1.522557"/>
+    <Atom type="scm-C" sigma="0.334977" epsilon="0.425093"/>
+    <Atom type="scm-N" sigma="0.369722" epsilon="0.310034"/>
  </NonbondedForce>
 </ForceField>
