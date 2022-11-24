@@ -2,6 +2,10 @@
 # Edit at https://www.gitignore.io/?templates=vim,linux,macos,emacs,python,jupyternotebooks
 # Project specific files
 *.xtc
+corref.*
+engref.*
+progress.tt
+engsln.*
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
