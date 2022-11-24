@@ -1,0 +1,66 @@
+REMARK   1 CREATED WITH MDTraj 1.9.7, 2022-11-05
+CRYST1   66.879   66.879   66.879  90.00  90.00  90.00 P 1           1 
+MODEL        0
+ATOM      1  C1  PGH A   1      25.450  21.090  14.340  1.00  0.00           C  
+ATOM      2  O2  PGH A   1      24.150  20.620  14.830  1.00  0.00           O  
+ATOM      3  C3  PGH A   1      24.200  20.690  16.290  1.00  0.00           C  
+ATOM      4  H11 PGH A   1      26.220  20.330  14.570  1.00  0.00           H  
+ATOM      5  H12 PGH A   1      25.770  21.950  14.960  1.00  0.00           H  
+ATOM      6  H13 PGH A   1      25.360  21.370  13.260  1.00  0.00           H  
+ATOM      7  H31 PGH A   1      25.210  20.520  16.730  1.00  0.00           H  
+ATOM      8  H32 PGH A   1      23.790  21.670  16.610  1.00  0.00           H  
+ATOM      9  C1  PGM A   2      23.280  19.710  17.010  1.00  0.00           C  
+ATOM     10  O2  PGM A   2      23.860  18.400  16.960  1.00  0.00           O  
+ATOM     11  C3  PGM A   2      22.870  17.410  17.250  1.00  0.00           C  
+ATOM     12  H11 PGM A   2      23.280  19.980  18.090  1.00  0.00           H  
+ATOM     13  H12 PGM A   2      22.210  19.800  16.710  1.00  0.00           H  
+ATOM     14  H31 PGM A   2      22.340  17.700  18.180  1.00  0.00           H  
+ATOM     15  H32 PGM A   2      22.150  17.370  16.400  1.00  0.00           H  
+ATOM     16  C1  PGM A   3      23.570  16.030  17.320  1.00  0.00           C  
+ATOM     17  O2  PGM A   3      24.430  15.960  18.480  1.00  0.00           O  
+ATOM     18  C3  PGM A   3      24.920  14.640  18.680  1.00  0.00           C  
+ATOM     19  H11 PGM A   3      22.730  15.310  17.440  1.00  0.00           H  
+ATOM     20  H12 PGM A   3      24.100  15.780  16.370  1.00  0.00           H  
+ATOM     21  H31 PGM A   3      24.180  13.820  18.560  1.00  0.00           H  
+ATOM     22  H32 PGM A   3      25.510  14.370  17.780  1.00  0.00           H  
+ATOM     23  C1  PGT A   4      25.860  14.510  19.890  1.00  0.00           C  
+ATOM     24  O2  PGT A   4      27.080  15.330  19.770  1.00  0.00           O  
+ATOM     25  C3  PGT A   4      27.650  15.640  21.080  1.00  0.00           C  
+ATOM     26  H11 PGT A   4      25.190  14.830  20.720  1.00  0.00           H  
+ATOM     27  H12 PGT A   4      26.130  13.440  19.990  1.00  0.00           H  
+ATOM     28  H31 PGT A   4      26.890  16.100  21.740  1.00  0.00           H  
+ATOM     29  H32 PGT A   4      28.090  14.730  21.540  1.00  0.00           H  
+ATOM     30  H33 PGT A   4      28.510  16.320  20.910  1.00  0.00           H  
+TER      31      PGT A   4
+ENDMDL
+CONECT    1    2    4    5    6
+CONECT    2    1    3
+CONECT    3    2    7    8    9
+CONECT    4    1
+CONECT    5    1
+CONECT    6    1
+CONECT    7    3
+CONECT    8    3
+CONECT    9    3   10   12   13
+CONECT   10    9   11
+CONECT   11   10   14   15   16
+CONECT   12    9
+CONECT   13    9
+CONECT   14   11
+CONECT   15   11
+CONECT   16   11   17   19   20
+CONECT   17   16   18
+CONECT   18   17   21   22   23
+CONECT   19   16
+CONECT   20   16
+CONECT   21   18
+CONECT   22   18
+CONECT   23   18   24   26   27
+CONECT   24   23   25
+CONECT   25   24   28   29   30
+CONECT   26   23
+CONECT   27   23
+CONECT   28   25
+CONECT   29   25
+CONECT   30   25
+END

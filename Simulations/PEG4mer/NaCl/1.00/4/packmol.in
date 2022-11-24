@@ -1,0 +1,22 @@
+
+tolerance 2.0
+filetype pdb
+output PEG_4_NaCl.pdb
+
+add_box_sides 1.0
+
+structure PEG_structure.pdb
+        number 1
+        fixed 25. 25. 25. 0. 0. 0.
+        centerofmass
+end structure
+
+structure /home/usr6/r70276b/PEO-Solubility/PDB_files/Cl.pdb
+        number 109
+        inside cube 0. 0. 0. 70.
+end structure
+
+structure /home/usr6/r70276b/PEO-Solubility/PDB_files/Na.pdb
+        number 109
+        inside cube 0. 0. 0. 70.
+end structure
