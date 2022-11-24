@@ -1,0 +1,38 @@
+REMARK   1 CREATED WITH MDTraj 1.9.7, 2022-11-01
+CRYST1   66.860   66.860   66.860  90.00  90.00  90.00 P 1           1 
+MODEL        0
+ATOM      1  C1  PGH A   1      62.220  67.100  16.560  1.00  0.00           C  
+ATOM      2  O2  PGH A   1      63.000  67.770  17.560  1.00  0.00           O  
+ATOM      3  C3  PGH A   1      64.260  67.070  17.740  1.00  0.00           C  
+ATOM      4  H11 PGH A   1      61.790  66.090  16.750  1.00  0.00           H  
+ATOM      5  H12 PGH A   1      62.850  67.090  15.650  1.00  0.00           H  
+ATOM      6  H13 PGH A   1      61.330  67.730  16.330  1.00  0.00           H  
+ATOM      7  H31 PGH A   1      64.830  67.030  16.780  1.00  0.00           H  
+ATOM      8  H32 PGH A   1      64.940  67.690  18.360  1.00  0.00           H  
+ATOM      9  C1  PGT A   2      64.200  65.650  18.400  1.00  0.00           C  
+ATOM     10  O2  PGT A   2      63.990  65.760  19.800  1.00  0.00           O  
+ATOM     11  C3  PGT A   2      62.650  65.930  20.180  1.00  0.00           C  
+ATOM     12  H11 PGT A   2      63.550  64.960  17.830  1.00  0.00           H  
+ATOM     13  H12 PGT A   2      65.180  65.160  18.270  1.00  0.00           H  
+ATOM     14  H31 PGT A   2      62.240  66.730  19.530  1.00  0.00           H  
+ATOM     15  H32 PGT A   2      62.270  64.880  20.120  1.00  0.00           H  
+ATOM     16  H33 PGT A   2      62.620  66.270  21.230  1.00  0.00           H  
+TER      17      PGT A   2
+ENDMDL
+CONECT    1    2    4    5    6
+CONECT    2    1    3
+CONECT    3    2    7    8    9
+CONECT    4    1
+CONECT    5    1
+CONECT    6    1
+CONECT    7    3
+CONECT    8    3
+CONECT    9    3   10   12   13
+CONECT   10    9   11
+CONECT   11   10   14   15   16
+CONECT   12    9
+CONECT   13    9
+CONECT   14   11
+CONECT   15   11
+CONECT   16   11
+END
