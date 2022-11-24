@@ -1,0 +1,26 @@
+
+&ene_param
+      slttype = 1,     ! Choose system; 1: Solution system  2,3: Reference                     [to be set]
+      boxshp = 1,            ! Boxtype                                                               [correct]   
+      estype = 2,            ! Ensemble; 1: NVT   2: NPT                                             [correct]   
+      inptemp = 298.15,      ! Temperature (in Kelvin)                                               [correct]   
+      ljformat = 5,          ! LJ form                                                               [correct]   
+      cmbrule = 1,           ! Combination rule                                                      [correct]   
+      ljswitch = 1,          ! Switching function for smooth LJ truncation                           [correct]   
+      upljcut = 12,          ! Upper limit for LJ cutoff switching function (in Angstrom)            [correct]   
+      lwljcut = 10,          ! Lower limit for LJ cutoff switching function (in Angstrom)            [correct]   
+      cltype = 2,            ! Treatment of Coulomb interaction (2=PME)                              [correct]   
+      elecut = 12.0,         ! Cutoff of the real-space electrostatic interaction (in angstrom)      [correct]   
+      ewtoler = 0.00001,     ! Error tolerance in Ewald                                              [correct]   
+      splodr = 5,            ! Order of spline function used in PME                                  [correct]   
+      ms1max = 48, ! Number of meshes in PME (x)                                           [to be set] 
+      ms2max = 48, ! Number of meshes in PME (y)                                           [to be set] 
+      ms3max = 48, ! Number of meshes in PME (z)                                           [to be set] 
+      maxins = 200,   ! Number of inserts (chosen freely, for reference ONLY)                 [to be set] 
+      engdiv = 10, ! Number of divisions of the total simulation length (chosen freely)    [to be set] 
+/
+&hist
+      eclbin=5.0e-2, ecfbin=2.0e-3, ec0bin=2.0e-4, finfac=10.0e0,
+      ecdmin=-160.00, ecfmns=-0.20e0, ecdcen=0.0e0, eccore=55.0e0,
+      ecdmax=1.0e11, pecore=200
+/

@@ -1,0 +1,87 @@
+ ERmod 0.3.7, Copyright (C) 2000-2019 Nobuyuki Matubayasi
+                            2010-2019 Shun Sakuraba
+ ERmod comes with ABSOLUTELY NO WARRANTY.
+ This is free software, and you can redistribute it
+ and/or modify it under certain conditions.
+ See LICENSE file for details.
+ ERmod 0.3.7, Copyright (C) 2000-2019 Nobuyuki Matubayasi
+                            2010-2019 Shun Sakuraba
+ ERmod comes with ABSOLUTELY NO WARRANTY.
+ This is free software, and you can redistribute it
+ and/or modify it under certain conditions.
+ See LICENSE file for details.
+ 
+  Number of the   1-th solvent  =        10000
+ 
+  Be sure that the solvent distribution is homogeneous (radial distribution function is essentially unity) when the solvent molecule is separated beyond distance of   10.0 Angstrom in any direction from any atom within the solute molecule
+ 
+  LJ long-range correction    =        -7.8269
+ 
+  Self-energy of the solute   =         0.0028  kcal/mol
+ 
+ 
+ cumulative average & 95% error for solvation energy
+  1  -489.8849
+  2  -489.8735     0.0228
+  3  -489.8629     0.0251
+  4  -489.9330     0.1414
+  5  -490.0532     0.2643
+  6  -490.0649     0.2170
+  7  -490.0538     0.1848
+  8  -490.0245     0.1704
+  9  -490.0206     0.1505
+ 10  -490.0103     0.1362
+ 
+ 
+ group  inft  solvation free energy     error          difference
+   1      0       -104.96099           0.09979           0.08674
+   1     60       -105.11217           0.09987          -0.06444
+   1     80       -106.84314           0.09972          -1.79542
+   1    100       -114.54309           0.09783          -9.49536
+   2      0       -104.99305           0.09467           0.05468
+   3      0       -105.04773           0.09243           0.00000
+   4      0       -104.91426           0.09475           0.13347
+   5      0       -104.95338           0.09444           0.09435
+   5     60       -105.17741           0.09451          -0.12969
+   5     80       -107.39291           0.09406          -2.34518
+   5    100       -114.52839           0.09336          -9.48066
+ 
+ 
+ group  inft   Estimated free energy (kcal/mol)
+   1      0    -104.9650    -105.0215    -104.9433    -105.1600    -105.2702
+               -104.8869    -104.7926    -104.7736    -104.8348    -104.9620
+   1     60    -105.1162    -105.1724    -105.0949    -105.3108    -105.4218
+               -105.0381    -104.9434    -104.9244    -104.9862    -105.1136
+   1     80    -106.8460    -106.9028    -106.8240    -107.0426    -107.1531
+               -106.7681    -106.6762    -106.6558    -106.7194    -106.8436
+   1    100    -114.5503    -114.6021    -114.5235    -114.7443    -114.8431
+               -114.4639    -114.3813    -114.3561    -114.4267    -114.5396
+   2      0    -105.0063    -105.0718    -104.9648    -105.1768    -105.2741
+               -104.9220    -104.8185    -104.8146    -104.8740    -105.0076
+   3      0    -105.0490    -105.1019    -105.0285    -105.2350    -105.3305
+               -104.9832    -104.8840    -104.8799    -104.9268    -105.0586
+   4      0    -104.9378    -104.9837    -104.8846    -105.0910    -105.2016
+               -104.8413    -104.7364    -104.7382    -104.7971    -104.9310
+   5      0    -104.9634    -105.0208    -104.9515    -105.1184    -105.2497
+               -104.8680    -104.7852    -104.7864    -104.8218    -104.9685
+   5     60    -105.1870    -105.2451    -105.1751    -105.3425    -105.4741
+               -105.0928    -105.0092    -105.0098    -105.0463    -105.1922
+   5     80    -107.4041    -107.4588    -107.3907    -107.5566    -107.6893
+               -107.3086    -107.2259    -107.2260    -107.2627    -107.4064
+   5    100    -114.5439    -114.5898    -114.5298    -114.6912    -114.8224
+               -114.4434    -114.3632    -114.3624    -114.3981    -114.5396
+ 
+ 
+ cumulative average & 95% error for solvation free energy
+  1  -105.0490
+  2  -105.0754     0.0529
+  3  -105.0598     0.0437
+  4  -105.1036     0.0929
+  5  -105.1490     0.1158
+  6  -105.1213     0.1095
+  7  -105.0874     0.1148
+  8  -105.0615     0.1121
+  9  -105.0465     0.1033
+ 10  -105.0477     0.0924
+ 
+ Warning: mesh error is    0.133 kcal/mol and is larger than the 95% error of    0.092 kcal/mol
