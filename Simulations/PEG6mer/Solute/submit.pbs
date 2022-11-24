@@ -1,0 +1,14 @@
+#!/bin/bash
+#PBS -A ERCINCR
+#PBS -q gen_S
+#PBS -b 1
+#PBS -N PEG-6_Solute             # Name of job
+#PBS -e run.err               # error output
+#PBS -o run.out               # output file name
+
+source ~/.bashrc
+source ~/.bash_profile
+
+cd /work/1/ERCINCR/stefan/PEO-Solubility/Simulations/PEG6mer/Solute
+
+python openMM.py
