@@ -1,0 +1,85 @@
+ ERmod 0.3.7, Copyright (C) 2000-2019 Nobuyuki Matubayasi
+                            2010-2019 Shun Sakuraba
+ ERmod comes with ABSOLUTELY NO WARRANTY.
+ This is free software, and you can redistribute it
+ and/or modify it under certain conditions.
+ See LICENSE file for details.
+ ERmod 0.3.7, Copyright (C) 2000-2019 Nobuyuki Matubayasi
+                            2010-2019 Shun Sakuraba
+ ERmod comes with ABSOLUTELY NO WARRANTY.
+ This is free software, and you can redistribute it
+ and/or modify it under certain conditions.
+ See LICENSE file for details.
+ 
+  Number of the   1-th solvent  =        10000
+ 
+  Be sure that the solvent distribution is homogeneous (radial distribution function is essentially unity) when the solvent molecule is separated beyond distance of   10.0 Angstrom in any direction from any atom within the solute molecule
+ 
+  LJ long-range correction    =        -1.7716
+ 
+  Self-energy of the solute   =         0.0016  kcal/mol
+ 
+ 
+ cumulative average & 95% error for solvation energy
+  1  -111.0946
+  2  -111.0548     0.0795
+  3  -111.0241     0.0767
+  4  -110.9999     0.0727
+  5  -111.0210     0.0705
+  6  -111.0007     0.0705
+  7  -110.9671     0.0898
+  8  -110.9864     0.0868
+  9  -110.9563     0.0974
+ 10  -110.9680     0.0903
+ 
+ 
+ group  inft  solvation free energy     error          difference
+   1      0        -22.18578           0.05666          -0.03033
+   1     60        -22.22396           0.05677          -0.06851
+   1     80        -22.66349           0.05666          -0.50804
+   1    100        -24.49902           0.05740          -2.34357
+   2      0        -22.16571           0.05591          -0.01026
+   3      0        -22.15546           0.05576           0.00000
+   4      0        -22.12257           0.05795           0.03288
+   5      0        -22.06847           0.05864           0.08699
+   5     60        -22.12176           0.05870           0.03369
+   5     80        -22.69920           0.05828          -0.54375
+   5    100        -24.39074           0.05847          -2.23528
+ 
+ 
+ group  inft   Estimated free energy (kcal/mol)
+   1      0     -22.2668     -22.2449     -22.2060     -22.2130     -22.2278
+                -22.1215     -22.0580     -22.2361     -22.0145     -22.2691
+   1     60     -22.3051     -22.2833     -22.2444     -22.2514     -22.2660
+                -22.1597     -22.0957     -22.2744     -22.0525     -22.3073
+   1     80     -22.7448     -22.7225     -22.6851     -22.6883     -22.7058
+                -22.5995     -22.5363     -22.7134     -22.4918     -22.7473
+   1    100     -24.5820     -24.5592     -24.5206     -24.5228     -24.5408
+                -24.4354     -24.3735     -24.5502     -24.3222     -24.5835
+   2      0     -22.2470     -22.2226     -22.1900     -22.1927     -22.2058
+                -22.0983     -22.0432     -22.2176     -21.9952     -22.2446
+   3      0     -22.2327     -22.2099     -22.1847     -22.1909     -22.1950
+                -22.0918     -22.0332     -22.2069     -21.9811     -22.2284
+   4      0     -22.1981     -22.1839     -22.1398     -22.1427     -22.1762
+                -22.0580     -21.9900     -22.1822     -21.9487     -22.2062
+   5      0     -22.1526     -22.1230     -22.0831     -22.1163     -22.1126
+                -22.0106     -21.9271     -22.1232     -21.8927     -22.1435
+   5     60     -22.2062     -22.1770     -22.1362     -22.1694     -22.1663
+                -22.0638     -21.9801     -22.1764     -21.9459     -22.1963
+   5     80     -22.7821     -22.7528     -22.7135     -22.7466     -22.7430
+                -22.6420     -22.5588     -22.7549     -22.5242     -22.7741
+   5    100     -24.4751     -24.4459     -24.4039     -24.4383     -24.4339
+                -24.3335     -24.2508     -24.4470     -24.2146     -24.4644
+ 
+ 
+ cumulative average & 95% error for solvation free energy
+  1   -22.2327
+  2   -22.2213     0.0228
+  3   -22.2091     0.0277
+  4   -22.2045     0.0216
+  5   -22.2026     0.0172
+  6   -22.1842     0.0395
+  7   -22.1626     0.0545
+  8   -22.1681     0.0485
+  9   -22.1473     0.0597
+ 10   -22.1555     0.0558

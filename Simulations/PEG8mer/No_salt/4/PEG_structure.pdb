@@ -1,0 +1,122 @@
+REMARK   1 CREATED WITH MDTraj 1.9.7, 2022-10-12
+CRYST1   67.016   67.016   67.016  90.00  90.00  90.00 P 1           1 
+MODEL        0
+ATOM      1  C1  PGH A   1      66.910  42.700   9.970  1.00  0.00           C  
+ATOM      2  O2  PGH A   1      65.560  42.760  10.450  1.00  0.00           O  
+ATOM      3  C3  PGH A   1      65.400  42.190  11.690  1.00  0.00           C  
+ATOM      4  H11 PGH A   1      67.210  41.660   9.720  1.00  0.00           H  
+ATOM      5  H12 PGH A   1      67.630  43.180  10.670  1.00  0.00           H  
+ATOM      6  H13 PGH A   1      66.920  43.330   9.060  1.00  0.00           H  
+ATOM      7  H31 PGH A   1      65.220  41.090  11.650  1.00  0.00           H  
+ATOM      8  H32 PGH A   1      66.310  42.350  12.320  1.00  0.00           H  
+ATOM      9  C1  PGM A   2      64.120  42.590  12.440  1.00  0.00           C  
+ATOM     10  O2  PGM A   2      63.080  42.440  11.520  1.00  0.00           O  
+ATOM     11  C3  PGM A   2      61.840  42.810  12.070  1.00  0.00           C  
+ATOM     12  H11 PGM A   2      63.890  41.920  13.300  1.00  0.00           H  
+ATOM     13  H12 PGM A   2      64.140  43.660  12.770  1.00  0.00           H  
+ATOM     14  H31 PGM A   2      61.460  42.090  12.830  1.00  0.00           H  
+ATOM     15  H32 PGM A   2      61.970  43.780  12.590  1.00  0.00           H  
+ATOM     16  C1  PGM A   3      60.860  43.140  11.020  1.00  0.00           C  
+ATOM     17  O2  PGM A   3      61.360  44.150  10.180  1.00  0.00           O  
+ATOM     18  C3  PGM A   3      60.380  44.900   9.500  1.00  0.00           C  
+ATOM     19  H11 PGM A   3      60.550  42.160  10.580  1.00  0.00           H  
+ATOM     20  H12 PGM A   3      60.050  43.640  11.590  1.00  0.00           H  
+ATOM     21  H31 PGM A   3      59.830  44.270   8.770  1.00  0.00           H  
+ATOM     22  H32 PGM A   3      59.580  45.210  10.210  1.00  0.00           H  
+ATOM     23  C1  PGM A   4      60.930  46.150   8.780  1.00  0.00           C  
+ATOM     24  O2  PGM A   4      61.430  47.150   9.690  1.00  0.00           O  
+ATOM     25  C3  PGM A   4      61.870  48.340   9.140  1.00  0.00           C  
+ATOM     26  H11 PGM A   4      61.720  45.790   8.070  1.00  0.00           H  
+ATOM     27  H12 PGM A   4      60.160  46.590   8.120  1.00  0.00           H  
+ATOM     28  H31 PGM A   4      62.680  48.200   8.390  1.00  0.00           H  
+ATOM     29  H32 PGM A   4      61.000  48.760   8.580  1.00  0.00           H  
+ATOM     30  C1  PGM A   5      62.400  49.290  10.130  1.00  0.00           C  
+ATOM     31  O2  PGM A   5      61.420  49.520  11.100  1.00  0.00           O  
+ATOM     32  C3  PGM A   5      61.450  50.820  11.770  1.00  0.00           C  
+ATOM     33  H11 PGM A   5      63.330  48.860  10.580  1.00  0.00           H  
+ATOM     34  H12 PGM A   5      62.580  50.260   9.630  1.00  0.00           H  
+ATOM     35  H31 PGM A   5      62.440  51.300  11.860  1.00  0.00           H  
+ATOM     36  H32 PGM A   5      60.920  51.560  11.130  1.00  0.00           H  
+ATOM     37  C1  PGM A   6      60.820  50.690  13.190  1.00  0.00           C  
+ATOM     38  O2  PGM A   6      61.700  50.230  14.230  1.00  0.00           O  
+ATOM     39  C3  PGM A   6      60.980  49.780  15.340  1.00  0.00           C  
+ATOM     40  H11 PGM A   6      60.610  51.760  13.430  1.00  0.00           H  
+ATOM     41  H12 PGM A   6      59.820  50.210  13.080  1.00  0.00           H  
+ATOM     42  H31 PGM A   6      60.270  50.600  15.580  1.00  0.00           H  
+ATOM     43  H32 PGM A   6      60.400  48.850  15.140  1.00  0.00           H  
+ATOM     44  C1  PGM A   7      61.930  49.490  16.530  1.00  0.00           C  
+ATOM     45  O2  PGM A   7      62.820  50.610  16.710  1.00  0.00           O  
+ATOM     46  C3  PGM A   7      64.000  50.280  17.500  1.00  0.00           C  
+ATOM     47  H11 PGM A   7      61.310  49.320  17.430  1.00  0.00           H  
+ATOM     48  H12 PGM A   7      62.620  48.670  16.250  1.00  0.00           H  
+ATOM     49  H31 PGM A   7      64.040  50.990  18.360  1.00  0.00           H  
+ATOM     50  H32 PGM A   7      63.820  49.270  17.920  1.00  0.00           H  
+ATOM     51  C1  PGT A   8      65.270  50.130  16.730  1.00  0.00           C  
+ATOM     52  O2  PGT A   8      65.330  48.940  16.020  1.00  0.00           O  
+ATOM     53  C3  PGT A   8      66.530  48.610  15.530  1.00  0.00           C  
+ATOM     54  H11 PGT A   8      65.530  50.970  16.050  1.00  0.00           H  
+ATOM     55  H12 PGT A   8      66.070  50.220  17.490  1.00  0.00           H  
+ATOM     56  H31 PGT A   8      66.410  47.570  15.170  1.00  0.00           H  
+ATOM     57  H32 PGT A   8      66.710  49.410  14.780  1.00  0.00           H  
+ATOM     58  H33 PGT A   8      67.220  48.620  16.400  1.00  0.00           H  
+TER      59      PGT A   8
+ENDMDL
+CONECT    1    2    4    5    6
+CONECT    2    1    3
+CONECT    3    2    7    8    9
+CONECT    4    1
+CONECT    5    1
+CONECT    6    1
+CONECT    7    3
+CONECT    8    3
+CONECT    9    3   10   12   13
+CONECT   10    9   11
+CONECT   11   10   14   15   16
+CONECT   12    9
+CONECT   13    9
+CONECT   14   11
+CONECT   15   11
+CONECT   16   11   17   19   20
+CONECT   17   16   18
+CONECT   18   17   21   22   23
+CONECT   19   16
+CONECT   20   16
+CONECT   21   18
+CONECT   22   18
+CONECT   23   18   24   26   27
+CONECT   24   23   25
+CONECT   25   24   28   29   30
+CONECT   26   23
+CONECT   27   23
+CONECT   28   25
+CONECT   29   25
+CONECT   30   25   31   33   34
+CONECT   31   30   32
+CONECT   32   31   35   36   37
+CONECT   33   30
+CONECT   34   30
+CONECT   35   32
+CONECT   36   32
+CONECT   37   32   38   40   41
+CONECT   38   37   39
+CONECT   39   38   42   43   44
+CONECT   40   37
+CONECT   41   37
+CONECT   42   39
+CONECT   43   39
+CONECT   44   39   45   47   48
+CONECT   45   44   46
+CONECT   46   45   49   50   51
+CONECT   47   44
+CONECT   48   44
+CONECT   49   46
+CONECT   50   46
+CONECT   51   46   52   54   55
+CONECT   52   51   53
+CONECT   53   52   56   57   58
+CONECT   54   51
+CONECT   55   51
+CONECT   56   53
+CONECT   57   53
+CONECT   58   53
+END
