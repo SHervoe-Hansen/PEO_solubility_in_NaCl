@@ -12,6 +12,10 @@ submit.pbs
 submit_ermod.pbs
 openMM.py
 output.dat
+refs
+soln
+parameters_fe
+cumsfe[0-9]*
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
