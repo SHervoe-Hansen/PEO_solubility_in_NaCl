@@ -10,7 +10,7 @@ engsln.*
 packmol.in
 submit.pbs
 submit_ermod.pbs
-
+openMM.py
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
