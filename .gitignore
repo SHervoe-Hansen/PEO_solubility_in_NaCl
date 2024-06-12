@@ -11,6 +11,7 @@ packmol.in
 submit.pbs
 submit_ermod.pbs
 openMM.py
+output.dat
 
 ### Emacs ###
 # -*- mode: gitignore; -*-
