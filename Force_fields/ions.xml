@@ -2,7 +2,6 @@
  <Info>
     <DateGenerated>2022-07-02</DateGenerated>
     <Reference>Heyda, J., Vincent, J. C., Tobias, D. J., Dzubiella, J., and Jungwirth P. (2010) Ion Specificity at the Peptide Bond: Molecular Dynamics Simulations of N-Methylacetamide in Aqueous Salt Solutions, J. Phys. Chem. B. 114, 1213-1220.</Reference>
-    <Reference> Křížek, T., Kubíčková, A., Hladílková, J., Coufal, P., Heyda, J., and Jungwirth P. (2013) Electrophoretic mobilities of neutral analytes and electroosmotic flow markers in aqueous solutions of Hofmeister salts, ELECTROPHORESIS, 35, 617-624.</Reference>
  </Info>
  <AtomTypes>
     <Type name="ion-Na" class="ion-Na" element="Na" mass="22.98977"/>
