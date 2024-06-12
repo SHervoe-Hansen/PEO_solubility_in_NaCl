@@ -1,14 +1,19 @@
 [![CC BY 4.0][cc-by-shield]][cc-by]
 
-# Rigorous Thermodynamic Decomposition of Salt Effects on the Polymerization of Polyethylene Glycol
+# Electronic Notebook: Rigorous Thermodynamic Decomposition of NaCl's Effects on the Solubility of Polyethylene Glycol 
 
-### Research plan
-- [ ] Determine solvation free energy of PEO in various _n_-mers in neat water.
-- [ ] Determine solvation free energy of PEO in various _n_-mers in NaCl solution.
-- [ ] Determine solvation free energy of PEO in various _n_-mers in NaSCN solution.
+This is supporting information for the scientific manuscript by _Hervø-Hansen et al._ (_Journal_, 2024, doi: [xx.xxxxxx/xxxxxxxxxx](https://hervoe.dk)) on the solvation free energy of PEG in NaCl solutions  using the energy-representation theory of solvation in combination with all-atom simulations. All figures within the analysis are publication ready and can be reproduced by running the provided Jupyter notebooks (`.ipynb`). 
 
-### Overleaf
-A link to view and edit the Overleaf document associated with the project can be found [here](https://www.overleaf.com/8289365976jwqwswvjvjqh)
+### Layout
+- `PDB_files` PDB files for various chemical species utilized.
+- `Simulations` Directory containing raw ermod results and processed results. The directory is also used for location of trajectories and corresponding analysis upon reproduction.
+- `Force_fields` Directory containing force parameters files (in OpenMM format) for the various chemical species utilized.
+- `Figures` Directory containing publication ready figures and images imported in the Juypter notebooks.
+- `Auxiliary` Directory containing auxiliary python scripts for analysis of data.
+- `Simulations.ipynb` Jupyter notebook for running molecular dynamics simulations using OpenMM.
+- `Analysis.ipynb` Jupyter notebook for analysis of simulations and free energy computations and production of publication ready figures.
+- `ERmod.ipynb` Jupyter notebook for running free energy calculations using energy-representation theory.
+- `environment.yml` Conda environment file to recreate the simulation environment. The environment most importantly contains Numpy, Scipy, OpenMM, parmed, mdtraj, and Packmol.
 
 ### Usage
 To open the notebook, install Python via [Miniconda](https://conda.io/miniconda.html) and make sure all required packages are loaded by issuing the following terminal commands
