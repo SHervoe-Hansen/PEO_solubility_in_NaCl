@@ -1,4 +1,4 @@
-[![CC BY 4.0][cc-by-shield]][cc-by]
+[![CC BY 4.0][cc-by-shield]][cc-by][![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.12603996.svg)](https://doi.org/10.5281/zenodo.12603996)
 
 # Electronic Notebook: Thermodynamics of NaCl's Effects on the Solubility of Polyethylene Glycol 
 
