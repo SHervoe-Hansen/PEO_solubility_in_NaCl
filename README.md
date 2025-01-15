@@ -2,7 +2,7 @@
 
 # Electronic Notebook: Thermodynamics of NaCl's Effects on the Solubility of Polyethylene Glycol 
 
-This is supporting information for the scientific manuscript by _Hervø-Hansen et al._ (_Journal_, 2024, doi: [xx.xxxxxx/xxxxxxxxxx](https://hervoe.dk)) on the solvation free energy of PEG in NaCl solutions  using the energy-representation theory of solvation in combination with all-atom simulations. All figures within the analysis are publication ready and can be reproduced by running the provided Jupyter notebooks (`.ipynb`). 
+This is supporting information for the scientific manuscript by _Hervø-Hansen et al._ (_J. Chem. Theory Comput._, 2025, doi: [10.1021/acs.jctc.4c01000](https://doi.org/10.1021/acs.jctc.4c01000)) on the solvation free energy of PEG in NaCl solutions using the energy-representation theory of solvation in combination with all-atom simulations. All figures within the analysis are publication ready and can be reproduced by running the provided Jupyter notebooks (`.ipynb`). 
 
 ### Layout
 - `PDB_files` PDB files for various chemical species utilized.
